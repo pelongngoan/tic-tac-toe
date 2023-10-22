@@ -7,8 +7,13 @@ import FilterTable from './FilterTable';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <TicTacToe />
-    <FilterTable />
+    <div style={{display:'flex', columnGap:'100px'}}>
+
+        <TicTacToe />
+
+        <FilterTable />
+        
+    </div>
   </React.StrictMode>
   //dkjfskjfsdkj
 );
