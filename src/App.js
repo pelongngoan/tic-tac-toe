@@ -7,9 +7,10 @@ function Square({ value, onSquareClick }) {
     </button>
   );
 }
-kjshd
+// kjshd
 
 function Board({ xIsNext, squares, onPlay }) {
+  // kjsdskdjas
   function handleClick(i) {
     if (calculateWinner(squares) || squares[i]) {
       return;
